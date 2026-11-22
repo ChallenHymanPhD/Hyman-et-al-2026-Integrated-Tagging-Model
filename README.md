@@ -4,7 +4,7 @@ Companion code for:
  
 > Hyman, A. C., Collins, A. B., Ramsay, C., Wilms, S., Allen, M. S., Barbieri, L., & Frazer, T. K. (2026). Integrating conventional tagging and acoustic telemetry improves estimates of post-release survival for a highly targeted reef fish. *ICES Journal of Marine Science*, 83(11), fsag218. https://doi.org/10.1093/icesjms/fsag218
  
-This repository contains a step-by-step worked example of the integrated Bayesian tagging model developed in the paper. The model combines conventional tag-return data with acoustic telemetry to estimate **absolute post-release survival** as a function of capture-and-release covariates. The example uses **simulated data** to show how to implement the model, interpret its output, and check fit. It does not reproduce the published analysis of gag (*Mycteroperca microlepis*).
+This repository contains a step-by-step worked example of the integrated Bayesian tagging model developed in the paper. The model combines conventional tag-return data with acoustic telemetry to estimate **absolute post-release survival** as a function of capture-and-release covariates. The example uses **simulated data** to show how to implement the model, interpret its output, and check fit. It does not reproduce the published analysis of gag (*Mycteroperca microlepis*). The model framework here also does not make the assumption that spatial information on fishing effort is known, and therefore differs slightly from the final framework presented in the published version.
  
 ## Why integrate the two data streams?
  
